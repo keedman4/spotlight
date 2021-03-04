@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "staff-spotlight-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/staffSpotlight/StaffSpotlightWebPart.js",
+          "manifest": "./src/webparts/staffSpotlight/StaffSpotlightWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StaffSpotlightWebPartStrings": "lib/webparts/staffSpotlight/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
